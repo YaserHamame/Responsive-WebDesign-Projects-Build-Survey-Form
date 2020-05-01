@@ -1,0 +1,163 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<html>
+  <h1 id="title">NEW</h1>
+  <h2>Website Development Company</h2>
+  <br>
+  <br>
+  <p id="description"> Create your professional website with us, our websites are based on professional scientific experiences, and our company offers the latest global technology.</p>
+  <p id="description">For the first time, our site starts with a special course for developing websites. Those wishing to take a seat in our course, please fill in the following data:</p>
+
+    <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your Email"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number"
+        >Age<span class="clue">(optional)</span></label
+      >
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="14"
+        max="50"
+        class="form-control"
+        placeholder="Age"
+      />
+    </div>
+    <div class="form-group">
+    <p>What is your current level of website development?</p>
+    <select id="dropdown" name="role" class="form-control" required>
+
+    <option disabled selected value>Select current level</option>
+        <option value="beginner">Beginner</option>
+        <option value="intermediate ">Intermediate </option>
+        <option value="advanced">Advanced</option>
+        <option value="other">Other</option>
+      </select>
+    </div>  
+     <div class="form-group">
+      <p> What's your gender?
+</p>
+      <label>
+        <input
+          name="user-gender"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+        />Male</label
+      >
+      <label>
+        <input
+          name="user-gender"
+          value="maybe"
+          type="radio"
+          class="input-radio"
+        />Female</label
+      >
+
+      <label
+        ><input
+          name="user-gender"
+          value="not-sure"
+          type="radio"
+          class="input-radio"
+        />Other</label
+      >
+    </div>
+<div class="form-group">
+      <p>
+       What web development technologies do you expect to learn with us?
+        <span class="clue">(Check all that apply)</span>
+      </p>
+
+      <label
+        ><input
+          name="prefer"
+          value="HTML5"
+          type="checkbox"
+          class="input-checkbox"
+        />HTML5</label
+      >
+      <label>
+        <input
+          name="prefer"
+          value="CSS"
+          type="checkbox"
+          class="input-checkbox"
+        />CSS</label>
+    <label>
+        <input
+          name="prefer"
+          value="JavaScript"
+          type="checkbox"
+          class="input-checkbox"
+        />JavaScript</label>
+      <label>
+        <input
+          name="prefer"
+          value="ES6 "
+          type="checkbox"
+          class="input-checkbox"
+        />ES6 </label>
+      <label>
+        <input
+          name="prefer"
+          value="jQuery"
+          type="checkbox"
+          class="input-checkbox"
+        />jQuery</label>
+        <label>
+        <input
+          name="prefer"
+          value="jQuery"
+          type="checkbox"
+          class="input-checkbox"
+        />jQuery</label>
+        <label>
+        <input
+          name="prefer"
+          value="Other techniques"
+          type="checkbox"
+          class="input-checkbox"
+        />Other techniques</label>
+     <div class="form-group">
+      <p>A brief description of you ...</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your description here ..."
+      ></textarea>
+    </div>
+  
+     <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+  </form>
+  
+  
+</html>
